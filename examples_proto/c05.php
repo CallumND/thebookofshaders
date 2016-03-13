@@ -1,7 +1,7 @@
 <?php
 
 	$path = "..";
-	$subtitle = ": gallery";
+	$subtitle = ": gallery - Shaping functions";
 	include("header.php");
 
 	echo '
@@ -11,13 +11,13 @@
 
 	include($path."/src/parsedown/Parsedown.php");
 	$Parsedown = new Parsedown();
-	echo $Parsedown->text(file_get_contents ('README.md'));
+	echo $Parsedown->text(file_get_contents ('README-c05.md'));
 
 	echo '
 	</div>
 	<hr>
 	<ul class="navigationBar" >
-		<li class="navigationBar" onclick="window.location.href=\'../\'"> Home </li>
+		<li class="navigationBar" onclick="window.location.href=\'index.php\'">Gallery Home </li>
 	</ul>';
 
 	include("footer.php");

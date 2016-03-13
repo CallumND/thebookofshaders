@@ -31,14 +31,6 @@ div.gallery h2 {
 div.gallery h3 {
 	margin-top: 64px;
 }
-div.gallery div.toggle-container {
-	text-align: right;
-}
-
 div.gallery div.extra-container {
-    height: 0;
-    overflow: hidden;
-}
-div.gallery ul.more-examples {
-    opacity: 0;
+	text-align: right;
 }
